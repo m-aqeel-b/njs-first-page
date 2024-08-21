@@ -9,7 +9,7 @@
     />
   </head>
   <body>
-    <div>
+    <div class="">
       <div class="hb_announcement_bar">
         <div class="hb_announcement_bar--text">
           <p>
@@ -18,49 +18,50 @@
           </p>
         </div>
       </div>
-      <div class="hb_header_section">
-        <div class="hb-display-inline-block hb_header__section">
-          <img src="images/logo.png" class="hb_header_section__logo" />
-        </div>
+      <div class="hb_header_section main_container">
+        <div class="hb_header_section1">
+          <div class="hb-display-inline-block">
+            <img src="images/logo.png" class="hb_header_section__logo" />
+          </div>
 
-        <div class="hb-display-inline-block hb_header__section">
-          <input
-            type="text"
-            placeholder="search"
-            class="hb_header__search-box"
-          />
-          <div class="hb_header__searchbar-icon">
-            <svg
-              width="34"
-              height="34"
-              viewBox="0 0 34 34"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <rect width="34" height="34" rx="4" fill="#2F63A6" />
-              <path
-                d="M25.5337 26.8467C25.9192 27.2423 26.5523 27.2505 26.9478 26.865C27.3433 26.4796 27.3515 25.8465 26.9661 25.4509L25.5337 26.8467ZM20.9249 16.0039C19.9857 19.5092 16.3656 21.5933 12.8322 20.6465L12.3146 22.5783C16.9062 23.8087 21.6293 21.1025 22.8568 16.5215L20.9249 16.0039ZM12.8322 20.6465C9.29873 19.6997 7.20574 16.0848 8.14497 12.5795L6.21312 12.0619C4.98566 16.6428 7.72291 21.348 12.3146 22.5783L12.8322 20.6465ZM8.14497 12.5795C9.08421 9.07424 12.7042 6.99015 16.2377 7.93693L16.7553 6.00508C12.1637 4.77475 7.44058 7.48094 6.21312 12.0619L8.14497 12.5795ZM16.2377 7.93693C19.7712 8.88372 21.8642 12.4986 20.9249 16.0039L22.8568 16.5215C24.0842 11.9406 21.347 7.23541 16.7553 6.00508L16.2377 7.93693ZM19.2098 20.3573L25.5337 26.8467L26.9661 25.4509L20.6421 18.9615L19.2098 20.3573Z"
-                fill="white"
-              />
-            </svg>
+          <div class="hb-display-inline-block">
+            <input
+              type="text"
+              placeholder="search"
+              class="hb_header__search-box"
+            />
+            <!-- <div class="hb_header__searchbar-icon">
+              <svg
+                width="34"
+                height="34"
+                viewBox="0 0 34 34"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="34" height="34" rx="4" fill="#2F63A6" />
+                <path
+                  d="M25.5337 26.8467C25.9192 27.2423 26.5523 27.2505 26.9478 26.865C27.3433 26.4796 27.3515 25.8465 26.9661 25.4509L25.5337 26.8467ZM20.9249 16.0039C19.9857 19.5092 16.3656 21.5933 12.8322 20.6465L12.3146 22.5783C16.9062 23.8087 21.6293 21.1025 22.8568 16.5215L20.9249 16.0039ZM12.8322 20.6465C9.29873 19.6997 7.20574 16.0848 8.14497 12.5795L6.21312 12.0619C4.98566 16.6428 7.72291 21.348 12.3146 22.5783L12.8322 20.6465ZM8.14497 12.5795C9.08421 9.07424 12.7042 6.99015 16.2377 7.93693L16.7553 6.00508C12.1637 4.77475 7.44058 7.48094 6.21312 12.0619L8.14497 12.5795ZM16.2377 7.93693C19.7712 8.88372 21.8642 12.4986 20.9249 16.0039L22.8568 16.5215C24.0842 11.9406 21.347 7.23541 16.7553 6.00508L16.2377 7.93693ZM19.2098 20.3573L25.5337 26.8467L26.9661 25.4509L20.6421 18.9615L19.2098 20.3573Z"
+                  fill="white"
+                />
+              </svg>
+            </div> -->
+          </div>
+          <div class="hb_header__section hb_header__btn-section">
+            <a href="#"><i class="fa fa-instagram hb_header__fa"></i></a>
+            <a href="#"><i class="fa fa-facebook hb_header__fa"></i></a>
+            <a href="#"><i class="fa fa-linkedin hb_header__fa"></i></a>
+
+            <button class="hb_announcement__btn">
+              <i class="fa fa-calender"></i> Book An Appointment
+            </button>
           </div>
         </div>
-        <div
-          class="hb-display-inline-block hb_header__section hb_header__btn-section"
-        >
-          <a href="#"><i class="fa fa-instagram hb_header__fa"></i></a>
-          <a href="#"><i class="fa fa-facebook hb_header__fa"></i></a>
-          <a href="#"><i class="fa fa-linkedin hb_header__fa"></i></a>
 
-          <button class="hb_announcement__btn">
-            <i class="fa fa-calender"></i> Book An Appointment
-          </button>
-        </div>
         <div class="hb_header__bar"></div>
         <div class="hb_header__menue">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="#" class="hb_first_menu_item">Home</a>
             </li>
             <li>
               <a href="#">About</a>
@@ -87,22 +88,24 @@
         </div>
       </div>
       <div class="hb_slide">
-        <div>
+        <div class="">
           <img src="images/Rectangle-1.png" alt="" class="hb_slide__img" />
-          <div class="hb_sldes__overly--text">
-            Advanced <br />
-            healthcare now <br />
-            personalized
-          </div>
-          <div class="hb_slided__overly--paragraph">
-            <p>
-              We are adobted to treate your every health <br />
-              related problems under one roof
-            </p>
+          <div class="main_container">
+            <div class="hb_sldes__overly--text main_container">
+              Advanced <br />
+              healthcare now <br />
+              personalized
+            </div>
+            <div class="hb_slided__overly--paragraph main_container">
+              <p>
+                We are adobted to treate your every health <br />
+                related problems under one roof
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="hb_section2">
+      <div class="hb_section2 main_container">
         <p class="hb_section2__p">
           We aim to provide compassionate, high-quality healthcare to our
           community, ensuring every patient receives personalized treatment and
@@ -129,7 +132,7 @@
         </div>
       </div>
       <div class="hb_header__bar"></div>
-      <div class="hb_full_image">
+      <div class="hb_full_image main_container">
         <img src="images/doc.jpg" class="hb_imgg" />
         <div class="hb_img__overlay--p">
           <p>
@@ -145,53 +148,55 @@
         </div>
       </div>
       <div class="hb_testimonails">
-        <div class="hb_testimonial__title">TESTIMONIALS</div>
-        <div class="hb_testimonial__title2">Our Patient's stories</div>
-        <div class="hb_testimaonials__box">
-          <div class="test">
-            <div class="hb_ratings">Excellent</div>
-            <div class="hb_ratings__star">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
+        <div class="main_container">
+          <div class="hb_testimonial__title">TESTIMONIALS</div>
+          <div class="hb_testimonial__title2">Our Patient's stories</div>
+          <div class="hb_testimaonials__box">
+            <div class="test">
+              <div class="hb_ratings">Excellent</div>
+              <div class="hb_ratings__star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <div class="hb_ratings__count">50+ Reviews</div>
+              <div class="hb_ratings__read-more">
+                <a href="#">Read More Reviews</a>
+              </div>
             </div>
-            <div class="hb_ratings__count">50+ Reviews</div>
-            <div class="hb_ratings__read-more">
-              <a href="#">Read More Reviews</a>
+            <div class="hb_testimonail_comments">
+              <p class="hb_testimonial_comments-style">
+                “We feel very comfortable with hospitality provided by staff.
+                honestly speaking staff was courteous, helpful and very
+                attentive. I would highly recommend this hospital to my
+                relatives and friends.”
+              </p>
+              <p>Gaurav Chauhan</p>
             </div>
-          </div>
-          <div class="hb_testimonail_comments">
-            <p class="hb_testimonial_comments-style">
-              “We feel very comfortable with hospitality provided by staff.
-              honestly speaking staff was courteous, helpful and very attentive.
-              I would highly recommend this hospital to my relatives and
-              friends.”
-            </p>
-            <p>Gaurav Chauhan</p>
-          </div>
-          <div class="hb_testimonail_comments">
-            <p class="hb_testimonial_comments-style">
-              “In parikh hospital we get good response and good talk good
-              patient good health best doctor train hospital staff best hospital
-              in ahmedabad.”
-            </p>
-            <p>Brijesh Trivedi</p>
-          </div>
-          <div class="hb_testimonail_comments">
-            <p class="hb_testimonial_comments-style">
-              “We feel very comfortable with hospitality provided by staff.
-              honestly speaking staff was courteous, helpful and very attentive.
-              I would highly recommend this hospital to my relatives and
-              friends.”
-            </p>
-            <p>Gaurav Chauhan</p>
+            <div class="hb_testimonail_comments">
+              <p class="hb_testimonial_comments-style">
+                “In parikh hospital we get good response and good talk good
+                patient good health best doctor train hospital staff best
+                hospital in ahmedabad.”
+              </p>
+              <p>Brijesh Trivedi</p>
+            </div>
+            <div class="hb_testimonail_comments">
+              <p class="hb_testimonial_comments-style">
+                “We feel very comfortable with hospitality provided by staff.
+                honestly speaking staff was courteous, helpful and very
+                attentive. I would highly recommend this hospital to my
+                relatives and friends.”
+              </p>
+              <p>Gaurav Chauhan</p>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="hb_core_vlaue">
+      <div class="hb_core_vlaue main_container">
         <div class="hb_core_valu-left-col">
           <div class="hb_core_value-title">OUR CORE VALUES</div>
           <div class="hb_core_value-title2">
@@ -206,8 +211,74 @@
             Patients.
           </div>
         </div>
-        <div>
+        <div class="hb_core_value__image-container">
           <img src="images/doctor.png" class="hb_doc-img" />
+        </div>
+      </div>
+      <div class="hb_header__bar"></div>
+      <div class="hb_news main_container">
+        <div class="hb_new_title1">
+          <h3>NEWS & MEDIA</h3>
+        </div>
+        <div class="hb_news_section2">
+          <div class="hb_news_title2"><h5>Whats News at Parikh</h5></div>
+          <div>
+            <button class="hb_announcement__btn">Read More Articles</button>
+          </div>
+        </div>
+        <div class="hb_news_list">
+          <div class="hb_new_card">
+            <div class="hb_news-img">
+              <img src="images/Rectangle 4430.png" alt="" />
+            </div>
+            <div class="hb_news_title"><p>Article tagline - 18.07.24</p></div>
+          </div>
+          <div class="hb_new_card">
+            <div class="hb_news-img">
+              <img src="images/Rectangle 4431.png" alt="" />
+            </div>
+            <div class="hb_news_title"><p>Article tagline - 18.07.24</p></div>
+          </div>
+          <div class="hb_new_card">
+            <div class="hb_news-img">
+              <img src="images/Rectangle 4432.png" alt="" />
+            </div>
+            <div class="hb_news_title"><p>Article tagline - 18.07.24</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="hb_footer">
+        <div class="hb_footer__style main_container">
+          <div class="hb_footer__col1">
+            <div>
+              <img
+                src="images/Parikh Hospitals Logo 2 1.png"
+                alt=""
+                class="hb_footer__logo"
+              />
+            </div>
+            <div class="hb_footer__col1-title">
+              Our core purpose is to restore health of the patients and spread
+              happiness to their families.
+            </div>
+            <div class="hb_footer_col1--text">
+              <i class="fa fa-phone"></i> +91 96620 02255
+            </div>
+            <div class="hb_footer_col1--text">
+              <i class="fa fa-globe"></i>email@domain.com
+            </div>
+            <div class="hb_footer_col1--text">
+              <i class="fa fa-map"></i> Parikh Hospital, Opp. Nikol Police
+              Station, S.P. Ring Road, Nikol, Ahmedabad - 382350
+            </div>
+          </div>
+          <div class="hb_footer__col1">
+            <div>
+              <h3>Centres of Excellence</h3>
+            </div>
+          </div>
+          <div class="hb_footer__col1"></div>
+          <div class="hb_footer__col1"></div>
         </div>
       </div>
     </div>
