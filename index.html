@@ -9,15 +9,34 @@
     />
   </head>
   <body>
+    <!-- structure it by keeping mobile design in mind   -->
     <div class="">
       <div class="hb_announcement_bar">
         <div class="hb_announcement_bar--text">
           <p>
-            <i class="fa fa-phone"></i> Inquiry: +91 9988-14443 |
+            <i class="fa fa-phone"></i> Inquiry: +91 9988-14443 | 
+            <!-- use border left or right instead of |, try to use svg instead of font-awesome  -->
             <i class="fa fa-whatsapp"></i> Whatsapp: +91 96620-02255
           </p>
         </div>
       </div>
+      <!-- structure should be like
+       <div class="hb_header">
+          <div class="hb-page-width">
+            <div class="hb-wrapper">
+              <div class="hb_header__logo">
+                  <img class="hb_header__logo--img">
+              </div>
+              <div class="hb_header__search-bar">
+                input...
+              </div>
+              <div class="hb_header__mobile-toggle">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      -->
       <div class="hb_header_section main_container">
         <div class="hb_header_section1">
           <div class="hb-display-inline-block">

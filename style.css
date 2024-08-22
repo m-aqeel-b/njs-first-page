@@ -8,16 +8,17 @@
 }
 .main_container {
     max-width: 1200px; /* Common max width */
-    margin-left: auto;
+    margin: 0 auto;
+    /* margin-left: auto;
     margin-right: auto;
     padding-left: 20px;  /* Adding padding for extra space */
-    padding-right: 20px;
+    /*  "use margin:0 auto" to center an element, don't use margin-left, margin-right  and paddingleft right*/
   }
 .hb-display-inline-block{
     display:inline-block;
 }
 .hb_announcement_bar {
-    background-color: rgb(53, 45, 167);
+    background-color: #2F63A6;
     height:34px;
     display: flex;
     align-items: center; /* Center vertically */
@@ -82,15 +83,18 @@
     height: Fixed (16px)px;
 }
 .hb_header__menue ul{
+    /* always use class or id name to give style.  */
     
   margin: 0;
   padding: 0;
   display: flex;
 }
 .hb_header__menue ul li{
+     /* always use class or id name to give style.  */
     display:inline-block;    
 }
 .hb_header__menue ul li a{
+     /* always use class or id name to give style.  */
     display: inline-block;
     color: #2F63A6;
     text-decoration: none;
