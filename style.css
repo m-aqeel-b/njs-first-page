@@ -7,12 +7,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-img{
-    width:100%;
+
+img {
+    width: 100%;
     height: 100%;
-    display:block;
+    display: block;
     object-fit: cover;
 }
+
 .hb_mt_0 {
     margin-top: 0px !important;
 }
@@ -101,6 +103,15 @@ img{
 }
 
 .hb_header__bar {
+    border: 1px solid #DDE7F3;
+    top: 144px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    height: 0px;
+}
+
+.hb_line {
     border: 1px solid #DDE7F3;
     top: 144px;
     gap: 0px;
@@ -626,7 +637,8 @@ img{
 .hb_core_values-container {
     background-color: #2F63A6;
 }
-.hb_core_values-container .main_container{
+
+.hb_core_values-container .main_container {
     margin-right: 0px;
     max-width: 1225px;
 }
@@ -634,7 +646,7 @@ img{
 .hb_core_value__image-container--no-overly {
     position: relative;
     display: inline-block;
-    width:810px;
+    width: 810px;
 }
 
 /* .hb_core_value-col {
@@ -652,39 +664,42 @@ img{
 .hb_vision_mission-container {
     padding: 10vh 0vh;
 }
-.hb_vision_mission-container .hb_wrapper{
-    
-gap: 80px;
-opacity: 0px;
+
+.hb_vision_mission-container .hb_wrapper {
+
+    gap: 80px;
+    opacity: 0px;
 
 }
 
 .hb_vision_mission-col {
     display: flex;
-    gap:24px;
-    width:50%;
+    gap: 24px;
+    width: 50%;
 }
 
 .hb_vision_mission--img-container {
     margin-right: 15px;
 }
-.hb_vision_mission--title{
+
+.hb_vision_mission--title {
     color: #0E4080;
     font-family: PT Serif;
-font-size: 24px;
-font-weight: 700;
-line-height: 24px;
-text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
 
 
 }
-.hb_vision_mission--p{
+
+.hb_vision_mission--p {
     color: #0E4080;
     font-family: Sofia Pro;
-font-size: 15px;
-font-weight: 400;
-line-height: 18px;
-text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
 
 }
 
@@ -726,14 +741,135 @@ text-align: left;
     text-align: left;
     color: #2F63A6
 }
-.hb_stories2--style{
+
+.hb_stories2--style {
     padding-left: 0;
 }
-.hb_figures{
+
+.hb_figures {
     padding: 10vh 0vh;
 }
-.hb_figures .hb_wrapper{
+
+.hb_figures .hb_wrapper {
     justify-content: center;
-    gap:80px;
+    gap: 80px;
     align-items: flex-end;
+}
+
+.hb_intro {
+    text-align: center;
+    padding: 10vh 0;
+}
+
+.hb_intro .hb_wrapper {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.hb_intro__title1 {
+    font-family: Sofia Pro;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #E94C94
+}
+
+.hb_intro__title2 {
+    font-family: PT Serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+    color: #0E4080
+}
+
+.hb_intro__p {
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #2F63A6;
+}
+
+.hb_rectangle .main_container {
+    background-color: #2F63A6;
+}
+
+.hb_rectangle__col {
+    width: 50%;
+    padding: 10vh;
+}
+
+.hb_rectangle__img {
+    width: 50%
+}
+
+.hb_rectangle__p {
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #FFFFFF
+}
+
+.hb_title {
+    margin: 10vh 0;
+}
+
+.hb_title .main_container {
+    text-align: center;
+    width: 50%;
+}
+
+.hb_title__text {
+    font-family: PT Serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #0E4080
+}
+
+.hb_doctors {
+    margin: 5vh 0;
+}
+
+.hb_doctor__img {
+    width: 300px;
+    height: 370px;
+    gap: 0px;
+    border-radius: 13px ;
+    opacity: 0px;
+    background: #DDE7F3;
+
+}
+
+.hb_doctor__detail {
+    text-align: center;
+    padding: 3vh;
+}
+.hb_doctor__name{
+    font-family: Sofia Pro;
+font-size: 22px;
+font-weight: 600;
+line-height: 22px;
+text-align: center;
+color:#0E4080
+}
+.hb_doctor__qual{
+    font-family: Sofia Pro;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: #2F63A6;
+}
+.hb_doctors .hb_wrapper{
+    gap:24px;
+    flex-wrap: wrap;
 }
