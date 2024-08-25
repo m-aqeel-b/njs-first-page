@@ -281,7 +281,7 @@ img{
     height: 420px;
 }
 
-.hb_imgg::before {}
+/* .hb_imgg::before {} */
 
 .hb_img__overlay--p {
     position: absolute;
@@ -626,6 +626,10 @@ img{
 .hb_core_values-container {
     background-color: #2F63A6;
 }
+.hb_core_values-container .main_container{
+    margin-right: 0px;
+    max-width: 1225px;
+}
 
 .hb_core_value__image-container--no-overly {
     position: relative;
@@ -633,9 +637,9 @@ img{
     width:810px;
 }
 
-.hb_core_value-col {
+/* .hb_core_value-col {
     margin-left: 2vw;
-}
+} */
 
 .hb_doc-img-2-style {
     border-radius: 0px;
