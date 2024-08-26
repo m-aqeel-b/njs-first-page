@@ -1007,9 +1007,10 @@ img {
     padding-top: 50px;
     padding-bottom: 80px;
 }
-.hb_testimonail__list .hb_wrapper{
+
+.hb_testimonail__list .hb_wrapper {
     flex-wrap: wrap;
-    margin:0 -5px;
+    margin: 0 -5px;
     justify-content: center;
 }
 
@@ -1049,6 +1050,76 @@ img {
     text-align: left;
     color: #FFFFFF
 }
-.hb_testimonail__item{
-    margin:15px 20px
+
+.hb_testimonail__item {
+    margin: 15px 20px
+}
+
+.hb_hero_section {
+    margin: 60px 0;
+}
+
+.hb_contact_detail {
+    width: 500px;
+    height: 480px;
+    top: 256px;
+    left: 75px;
+    gap: 0px;
+    border-radius: 13px;
+    opacity: 0px;
+    background: #DDE7F366;
+
+}
+
+.hb_contact__google_image {
+    width: 766px;
+    height: 480px;
+}
+
+.hb_hero_section .hb_wrapper {
+    column-gap: 24px;
+}
+
+.hb_contact--title1 {
+    font-family: Sofia Pro;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 71px;
+    text-transform: uppercase;
+    color: #E94C94;
+}
+
+.hb_contact--title2 {
+    font-family: PT Serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+    color: #0E4080
+}
+
+.hb_contact_detail--text {
+    padding-top: 52px;
+}
+
+.hb_cotact_detail--items {
+    display: flex;
+    
+    padding-left: 56px;
+    column-gap: 22px;
+}
+
+.hb_cotact_detail--items--p {
+    width: 274px;
+    height: 78px;
+    font-family: Sofia Pro;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #0E4080;
+    padding-bottom: 33px;
 }
