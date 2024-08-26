@@ -843,7 +843,7 @@ img {
     width: 300px;
     height: 370px;
     gap: 0px;
-    border-radius: 13px ;
+    border-radius: 13px;
     opacity: 0px;
     background: #DDE7F3;
 
@@ -853,23 +853,101 @@ img {
     text-align: center;
     padding: 3vh;
 }
-.hb_doctor__name{
+
+.hb_doctor__name {
     font-family: Sofia Pro;
-font-size: 22px;
-font-weight: 600;
-line-height: 22px;
-text-align: center;
-color:#0E4080
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color: #0E4080
 }
-.hb_doctor__qual{
+
+.hb_doctor__qual {
     font-family: Sofia Pro;
-font-size: 18px;
-font-weight: 400;
-line-height: 24px;
-text-align: center;
-color: #2F63A6;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #2F63A6;
 }
-.hb_doctors .hb_wrapper{
-    gap:24px;
+
+.hb_doctors .hb_wrapper {
+    gap: 24px;
     flex-wrap: wrap;
+}
+
+.hb_make_appointment {
+    margin: 10vh 0;
+}
+
+.hb_make_appointment .hb_wrapper {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 65%;
+    text-align: center;
+}
+
+.hb_make_appointment--text {
+    padding: 5vh 0;
+
+}
+
+.hb_make_appointment__p {
+    font-family: Sofia Pro;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    color: #2F63A6;
+}
+
+.hb_make_appointment--btn {
+    display: flex;
+    justify-content: center;
+}
+
+.hb_make_appointment__btn--style {
+    width: 549px;
+    height: 56px;
+    border-radius: 6px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #0E4080;
+
+}
+
+.hb_make_appointment__btn--p1 {
+    font-family: Sofia Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF
+}
+
+.hb_make_appointment__btn--p2 {
+    width: 222px;
+    height: 32px;
+    top: 5002px;
+    left: 733px;
+    gap: 0px;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #1BB8B8;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.hb_make_appointment__btn--svg{
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 15px;
+    padding: 2px;
 }
