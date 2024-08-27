@@ -1122,6 +1122,9 @@ img {
     color: #0E4080;
     padding-bottom: 33px;
 }
+.hb_contact_form{
+    padding-bottom: 30px;
+}
 
 .hb_contact_form .main_container {
     width: 700px;
@@ -1134,12 +1137,17 @@ img {
     opacity: 0px;
 
 }
-.hb_contact__input{
-    display: flex;
-    gap:20px;
-    padding-bottom: 20px;
+
+.hb_contact_form .hb_wrapper {
     flex-wrap: wrap;
 }
+
+.hb_contact__input {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
 .hb_contact__input--style {
     width: 340px;
     height: 40px;
@@ -1150,5 +1158,64 @@ img {
     border: 1px;
     opacity: 0px;
     border: 1px solid #2F63A6;
-    padding:13px;
+    
+    
+
+}
+.hb_contact__input--style::placeholder{
+    padding: 13px;
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color:#2F63A6
+}
+
+.hb_contact__text-area-style {
+    width: 700px;
+    height: 160px;
+    top: 916px;
+    left: 370px;
+    gap: 0px;
+    border-radius: 4px;
+    opacity: 0px;
+    border: 1px solid #2F63A6;
+    resize: none;
+    
+    
+}
+.hb_contact__text-area-style::placeholder{
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    padding: 13px;
+    color:#2F63A6
+}
+
+.hb_submit_btn{
+    padding-bottom: 80px;
+}
+.hb_submit_btn .main_container{
+    display: flex;
+    justify-content: center;
+}
+.hb_contact_submit__btn{
+    width: 176px;
+height: 40px;
+top: 1106px;
+left: 632px;
+padding: 12px 30px 12px 30px;
+gap: 10px;
+border-radius: 4px;
+background: linear-gradient(90deg, #3465A4 -6.7%, #1BB8B8 115.94%);
+font-family: Sofia Pro;
+font-size: 17px;
+font-weight: 600;
+line-height: 16px;
+color:#FFFFFF;
+border: 1px solid #FFFFFF;
+text-align: center;
 }
