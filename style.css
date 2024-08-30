@@ -1486,7 +1486,7 @@ img {
     }
 
     .hb_intro .hb_wrapper {
-        width: 100%
+        width: 310px
     }
 
     .hb_intro__p {
@@ -1573,5 +1573,33 @@ img {
         font-size: 13px;
         font-weight: 500;
         line-height: 18px;
+    }
+    .hb_make_appointment{
+margin-top: 40px;
+    }
+    .hb_make_appointment--text{
+        padding-top: 0px;
+    }
+    .hb_make_appointment .hb_wrapper{
+        width: 100%;
+    }
+    .hb_make_appointment--text{
+        width: 330px;
+height: 198px;
+top: 3366px;
+left: 30px;
+gap: 0px;
+opacity: 0px;
+margin-bottom: 30px;
+    }
+    .hb_make_appointment__p{
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+text-align: center;
+    }
+    .hb_make_appointment__btn--style{
+        width: 310px;
+        height: 48px;
     }
 }
