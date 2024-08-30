@@ -1235,6 +1235,18 @@ img {
     text-align: center;
 }
 
+.hb_column {
+    flex: 1;
+}
+
+.hb_stories__img-col {
+    order: 1;
+}
+
+.hb_stories__text-col {
+    order: 2;
+}
+
 @media only screen and (max-width:390px) {
     .hb_title1 {
         padding-top: 40px;
@@ -1424,5 +1436,142 @@ img {
 
     .hb_stories__text-col {
         padding: 0
+    }
+
+    .hb_stories__text-col {
+        width: 296px;
+        height: 84px;
+        top: 1018px;
+        left: 47px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+
+    .hb_stories--p {
+        width: 342px;
+        height: 260px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        text-align: center;
+        margin-left: -25px;
+    }
+
+    .hb_stories__img-col {
+        order: 2;
+    }
+
+    .hb_stories__text-col {
+        order: 1;
+    }
+
+    .hb_column {
+        flex: 100%;
+    }
+
+    .hb_intro__title1 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 1.5px;
+        padding-bottom: 4px;
+    }
+
+    .hb_intro__title2 {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 30px;
+        padding-bottom: 13px;
+    }
+
+    .hb_intro .hb_wrapper {
+        width: 100%
+    }
+
+    .hb_intro__p {
+        width: 310px;
+        height: 171px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+    }
+
+    .hb_intro {
+        padding: 40px 0;
+    }
+
+    .hb_rectangle .hb_wrapper {
+        background-color: #2F63A6;
+    }
+
+    .hb_rectangle .hb_wrapper {
+        flex-wrap: wrap;
+    }
+
+    .hb_rectangle__col {
+        width: 100%;
+    }
+
+    .hb_rectangle__img {
+        width: 100%
+    }
+
+    .hb_rectangle .main_container {
+        background: none;
+    }
+
+    .hb_rectangle__col {
+        padding: 29px 16px;
+        font-family: Sofia Pro;
+    }
+
+    .hb_rectangle__p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    .hb_title__text {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 28px;
+        margin: 50px 0px;
+    }
+
+    .hb_title .main_container {
+        width: 100%;
+    }
+
+    .hb_doctor {
+        width: 50%;
+        padding-bottom: 24px;
+    }
+
+    .hb_doctor__img {
+        width: 164px;
+        height: 200px;
+    }
+
+    .hb_doctor__detail {
+        padding: 0px;
+        text-align: left;
+        padding-top: 15px;
+    }
+
+    .hb_doctor__name {
+        text-align: left;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 18px;
+        padding-bottom: 8px;
+    }
+
+    .hb_doctor__qual {
+        text-align: left;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 18px;
     }
 }
