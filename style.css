@@ -1574,32 +1574,115 @@ img {
         font-weight: 500;
         line-height: 18px;
     }
-    .hb_make_appointment{
-margin-top: 40px;
+
+    .hb_make_appointment {
+        margin-top: 40px;
     }
-    .hb_make_appointment--text{
+
+    .hb_make_appointment--text {
         padding-top: 0px;
     }
-    .hb_make_appointment .hb_wrapper{
+
+    .hb_make_appointment .hb_wrapper {
         width: 100%;
     }
-    .hb_make_appointment--text{
+
+    .hb_make_appointment--text {
         width: 330px;
-height: 198px;
-top: 3366px;
-left: 30px;
-gap: 0px;
-opacity: 0px;
-margin-bottom: 30px;
+        height: 198px;
+        top: 3366px;
+        left: 30px;
+        gap: 0px;
+        opacity: 0px;
+        margin-bottom: 30px;
     }
-    .hb_make_appointment__p{
-font-size: 18px;
-font-weight: 600;
-line-height: 22px;
-text-align: center;
+
+    .hb_make_appointment__p {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: center;
     }
-    .hb_make_appointment__btn--style{
+
+    .hb_make_appointment__btn--style {
         width: 310px;
         height: 48px;
     }
+
+    .hb_hero_section .hb_wrapper {
+        flex-wrap: wrap;
+        gap: 13px;
+    }
+
+    .hb_contact_detail {
+        width: 342px;
+        height: 265px;
+    }
+
+    .hb_contact--title1 {
+        font-size: 16px;
+        padding-top: 24px;
+        padding-bottom: 4px;
+    }
+
+    .hb_contact--title2 {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .hb_contact_detail--text {
+        padding-top: 24px;
+        width: 281px;
+        height: 143px;
+    }
+
+    .hb_cotact_detail--items--p {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 22px;
+        padding-bottom: 16px;
+        height: auto;
+    }
+
+    .hb_cotact_detail--items {
+        gap: 10px;
+    }
+
+    .hb_contact__google_image{
+        width: 342px;
+        height: 214px;
+    }
+    .hb_small_input{
+        width: 164px;
+height: 32px;
+
+    }
+    .hb_large_input{
+        width: 342px;
+height: 32px;
+
+    }
+    .hb_contact__input{
+        gap:14px
+    }
+    .hb_contact__input-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .hb_contact__text-area-style{
+        width: 342px;
+height: 124px;
+    }
+    
+.hb_contact_submit__btn{
+        width: 126px;
+        height: 36px;
+        font-size: 16px;
+    font-weight: 600;
+    padding: 0px;
+}
+.hb_contact_form .main_container{
+    width: auto;
+}
 }
