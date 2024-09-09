@@ -1699,15 +1699,33 @@ img {
     }
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:768px) {
     .hb_hero_section .hb_wrapper {
         flex-direction: column;
-        gap:24px
+        gap: 24px
     }
-    .hb_contact_detail{
+
+    .hb_contact_detail {
         width: 100%;
     }
-    .hb_contact__google_image{
+
+    .hb_contact__google_image {
         width: 100%;
+    }
+
+    .hb_contact_form .hb_wrapper {
+        justify-content: center;
+    }
+
+    .hb_contact__input--style {
+        width: 250px;
+    }
+
+    .hb_contact__text-area-style {
+        width: 520px;
+    }
+
+    .hb_google--img {
+        border-radius: 13px;
     }
 }
