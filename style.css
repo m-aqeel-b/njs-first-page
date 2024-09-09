@@ -1699,7 +1699,7 @@ img {
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (min-width: 391px) and (max-width:768px) {
     .hb_hero_section .hb_wrapper {
         flex-direction: column;
         gap: 24px
