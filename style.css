@@ -1249,6 +1249,74 @@ img {
     order: 2;
 }
 
+.hb_ivf_title {
+    padding-top: 90px;
+    padding-bottom: 140px;
+}
+
+.hb_ivf_title--style {
+    font-family: PT Serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    color: #0E4080
+}
+
+.hb_ivf__img--style {
+    width: 765px;
+    height: 310px;
+    top: 196px;
+    left: 600px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.hb_ivf_p--style {
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #2F63A6;
+    
+}
+.hb_ivf_p{
+    padding-top: 40px;
+    padding-bottom: 63px;
+}
+.hb_treatment .main_container{
+    width: 100%;
+height: 425px;
+top: 736px;
+left: 75px;
+gap: 0px;
+border-radius: 13px;
+opacity: 0px;
+background: #DDE7F366;
+
+}
+.hb_treatment--title{
+    
+background: linear-gradient(90deg, #3465A4 -6.7%, #1BB8B8 115.94%);
+border-radius: 8px ;
+}
+.hb_treatment--title--style{
+    width: 1264px;
+height: 56px;
+top: 749px;
+left: 88px;
+gap: 0px;
+
+display: block;
+font-family: PT Serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 16px;
+text-align: left;
+color:#FFFFFF
+}
+
 @media only screen and (max-width:390px) {
     .hb_title1 {
         padding-top: 40px;
