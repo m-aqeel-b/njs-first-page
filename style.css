@@ -1279,43 +1279,176 @@ img {
     line-height: 24px;
     text-align: left;
     color: #2F63A6;
-    
+
 }
-.hb_ivf_p{
+
+.hb_ivf_p {
     padding-top: 40px;
     padding-bottom: 63px;
 }
-.hb_treatment .main_container{
+
+.hb_treatment .main_container {
     width: 100%;
-height: 425px;
-top: 736px;
-left: 75px;
-gap: 0px;
-border-radius: 13px;
-opacity: 0px;
-background: #DDE7F366;
-
+    height: 425px;
+    top: 736px;
+    left: 75px;
+    gap: 0px;
+    border-radius: 13px;
+    opacity: 0px;
+    background: #DDE7F366;
+    padding-top: 13px;
 }
-.hb_treatment--title{
-    
-background: linear-gradient(90deg, #3465A4 -6.7%, #1BB8B8 115.94%);
-border-radius: 8px ;
-}
-.hb_treatment--title--style{
-    width: 1264px;
-height: 56px;
-top: 749px;
-left: 88px;
-gap: 0px;
 
-display: block;
-font-family: PT Serif;
-font-size: 24px;
-font-weight: 700;
-line-height: 16px;
+.hb_treatment--title {
+    background: linear-gradient(90deg, #3465A4 -6.7%, #1BB8B8 115.94%);
+    border-radius: 8px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hb_treatment--title--style {
+    font-family: PT Serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF
+}
+
+.hb_treatment-p {
+    display: flex;
+    justify-content: center;
+}
+
+.hb_treatment-p--style {
+    width: 1040px;
+    padding-top: 30px;
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #2F63A6
+}
+
+.hb_treatment_list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 18px;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 1120px;
+}
+
+.hb_treatment_list--item {
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #0E4080;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 373px
+}
+
+.hb_benifits .hb_wrapper {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.hb_benifits_title {
+    font-family: PT Serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #0E4080
+}
+
+.hb_benifits_p {
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #0E4080;
+    width: 462px;
+    padding-top: 24px;
+    padding-bottom: 15px;
+}
+.hb_benifits_list{
+    padding-left: 10px;
+}
+.hb_benifits_list--item{
+    font-family: Sofia Pro;
+font-size: 17px;
+font-weight: 400;
+line-height: 30px;
 text-align: left;
-color:#FFFFFF
+color:#2F63A6
 }
+
+.hb_intro .hb_ivf_title1{
+    font-size: 18px;
+    line-height: 16px;
+}
+.hb_intro .hb_ivf_sub_title{
+    font-size: 30px;
+    line-height: 36px;
+}
+.hb_intro2{
+    padding-bottom: 5px !important;
+}
+
+.hb_doctor_img{
+    width: 208px;
+height: 200px;
+gap: 0px;
+border-radius: 200px;
+opacity: 0px;
+background: #DDE7F3;
+
+}
+.hb_doctor_name{
+    font-family: Sofia Pro;
+font-size: 22px;
+font-weight: 600;
+line-height: 22px;
+text-align: center;
+color:#0E4080;
+padding-top: 24px;
+padding-bottom: 10px;
+}
+.hb_doctor_detail{
+    font-family: Sofia Pro;
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+color:#2F63A6
+}
+.hb_doctors .hb_wrapper{
+    column-gap: 100px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:390px) {
     .hb_title1 {
