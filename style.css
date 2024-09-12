@@ -1251,7 +1251,7 @@ img {
 
 .hb_ivf_title {
     padding-top: 90px;
-    padding-bottom: 140px;
+    padding-bottom: 100px;
 }
 
 .hb_ivf_title--style {
@@ -1270,6 +1270,20 @@ img {
     left: 600px;
     gap: 0px;
     opacity: 0px;
+    margin-right: -75px;
+}
+.hb_ivf__img{
+    position: relative;    
+}
+.hb_ivf__img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #FFFFFF 11.19%, rgba(255, 255, 255, 0) 44%);
+    pointer-events: none;
 }
 
 .hb_ivf_p--style {
