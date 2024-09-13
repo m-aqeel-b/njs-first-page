@@ -55,18 +55,31 @@ img {
 
 .hb_announcement_bar--text {
     color: white;
-    vertical-align: middle;
-    text-align: center;
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+
 }
 
-.hb_header_section__logo {
-    position: relative;
+.hb_border {
+    border-right: 2px solid white;
+}
+
+.hb_logo--style {
+    /* position: relative; */
     width: 141px;
     top: 0px;
     gap: 0px;
     opacity: 0px;
     height: 80px;
-
 }
 
 .hb_announcement__btn {
@@ -150,8 +163,8 @@ img {
     text-decoration: none;
     font-family: Sofia Pro;
     font-weight: 600;
-    line-height: 1.4;
-    padding: 10px 28px;
+    line-height: 16px;
+    padding: 10px 25px;
     text-align: left;
     gap: 0px;
     opacity: 0px;
@@ -231,6 +244,13 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.hb_header_section .hb_wrapper{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
 }
 
 .hb_page-width {
@@ -1305,16 +1325,17 @@ img {
 }
 
 .hb_treatment .main_container {
-    width: 100%;    
+    width: 100%;
     top: 736px;
     left: 75px;
     gap: 0px;
     border-radius: 13px;
     opacity: 0px;
-    
+
     padding-top: 13px;
 }
-.hb_treatment_section{
+
+.hb_treatment_section {
     background: #DDE7F366;
     height: 425px;
 }
@@ -1953,78 +1974,97 @@ img {
         line-height: 20px;
         text-align: left;
     }
-    .hb_treatment--title{
+
+    .hb_treatment--title {
         height: 42px;
     }
-    .hb_treatment--title--style{
+
+    .hb_treatment--title--style {
         font-size: 18px;
     }
-    .hb_treatment-p--style{
+
+    .hb_treatment-p--style {
         font-size: 15px;
         line-height: 20px;
         padding-top: 20px;
         padding-left: 23px;
         padding-right: 23px;
     }
-    .hb_treatment_list{
+
+    .hb_treatment_list {
         flex-direction: column;
         row-gap: 13px;
         width: 100px;
         margin-left: 37px;
     }
-    .hb_treatment_list--item{
+
+    .hb_treatment_list--item {
         font-size: 13px;
         line-height: 15px;
         width: 300px;
     }
-    .hb_treatment_checkbox{
+
+    .hb_treatment_checkbox {
         width: 18px;
         height: 18px;
     }
-    .hb_treatment_section{
+
+    .hb_treatment_section {
         height: 485px;
     }
-    .hb_benifits .hb_wrapper{
+
+    .hb_benifits .hb_wrapper {
         flex-direction: column;
     }
-    .hb_benifits_p{
+
+    .hb_benifits_p {
         width: 100%;
     }
-    .hb_intro .hb_ivf_title1{
+
+    .hb_intro .hb_ivf_title1 {
         font-size: 16px;
     }
-    .hb_intro .hb_ivf_sub_title{
+
+    .hb_intro .hb_ivf_sub_title {
         font-size: 22px;
         line-height: 28px;
     }
+
     .hb_doctor_img {
         width: 130px;
         height: 130px;
     }
-    .hb_doctor_name{
+
+    .hb_doctor_name {
         font-size: 18px;
         line-height: 18px;
     }
-    .hb_doctor_detail{
+
+    .hb_doctor_detail {
         font-size: 15px;
         line-height: 18px;
     }
+
     .hb_doctors .hb_wrapper {
         row-gap: 24px;
         column-gap: 30px;
     }
-    .hb_doctors_item{
+
+    .hb_doctors_item {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .hb_make_appointment__btn--p1{
+
+    .hb_make_appointment__btn--p1 {
         font-size: 16px;
     }
-    .hb_make_appointment__btn--p2{
+
+    .hb_make_appointment__btn--p2 {
         width: 93px;
     }
-    .hb_contact_number{
+
+    .hb_contact_number {
         display: none;
     }
 }
