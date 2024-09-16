@@ -2203,15 +2203,25 @@ img {
         font-weight: 500;
         line-height: 20px;
     }
-    .hb_footer__col2{
+
+    .hb_footer__col2 {
         margin-top: 24px;
-        
+
     }
-    .hb_footer_col2_list{
+
+    .hb_footer_col2_list {
         margin-bottom: 14px;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
     }
-    .hb_footer_merged_sections{
-        gap:56px
+
+    .hb_footer_merged_sections {
+        gap: 56px
+    }
+    .hb_footer_col2__p--stlyle{
+        font-size: 14px;
+        line-height: 26px;
     }
 }
 
