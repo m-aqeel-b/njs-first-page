@@ -2223,6 +2223,9 @@ img {
         font-size: 14px;
         line-height: 26px;
     }
+    .hb_footer_title{
+        font-size: 16px;
+    }
 }
 
 @media only screen and (min-width: 391px) and (max-width:768px) {
