@@ -904,7 +904,7 @@ img {
 }
 
 .hb_rectangle__img {
-    width: 50%
+    margin-right: -15px;
 }
 
 .hb_rectangle__p {
