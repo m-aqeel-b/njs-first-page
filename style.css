@@ -476,7 +476,6 @@ img {
     background-color: #ffffff;
     padding: 8vh;
 }
-
 .hb_testimonial_comments-style {
     font-size: 15px;
 }
@@ -935,7 +934,7 @@ img {
 }
 
 .hb_doctor {
-    width: 25%;
+    width: 22%;
     padding: 0 5px;
 }
 
@@ -975,13 +974,6 @@ img {
     text-align: center;
     color: #2F63A6;
 }
-
-.hb_doctors .hb_wrapper {
-
-    flex-wrap: wrap;
-    margin: 0 -5px;
-}
-
 .hb_make_appointment {
     margin: 10vh 0;
 }
@@ -1341,6 +1333,8 @@ img {
 .hb_ivf_title {
     padding-top: 90px;
     padding-bottom: 100px;
+    max-width: 50%;
+    flex: 50%;
 }
 
 .hb_ivf_title--style {
@@ -1353,7 +1347,7 @@ img {
 }
 
 .hb_ivf__img--style {
-    width: 765px;
+    width: 100%;
     height: 310px;
     top: 196px;
     left: 600px;
@@ -1531,6 +1525,9 @@ img {
     background: #DDE7F3;
 
 }
+.mobile-none {
+    display: block;
+}
 
 .hb_doctor_name {
     font-family: Sofia Pro;
@@ -1553,8 +1550,9 @@ img {
 }
 
 .hb_doctors .hb_wrapper {
-    column-gap: 100px;
-    justify-content: center;
+    column-gap: 3%;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
@@ -1562,12 +1560,30 @@ img {
 
 
 
+@media screen and (max-width: 1200px) {
+    .hb_ivf__img--style {
+        width: 500px;
+    }
+}
 
-
-
-
+@media screen and (max-width: 991px) {
+    .hb_treatment_list--item {
+font-size: 9px;
+    }
+}
+@media screen and (max-width:767px) {
+    .hb_treatment_list--item {
+        font-size: 8px;
+            }
+}
 
 @media only screen and (max-width:390px) {
+    .hb_treatment_list--item {
+        font-size: 6px;
+            }
+    .mobile-none {
+        display: none;
+    }
     .hb_logo--style {
         width: 100px;
         height: 56px;
@@ -1903,7 +1919,7 @@ img {
     }
 
     .hb_doctor {
-        width: 50%;
+        width: 45%;
         padding-bottom: 24px;
     }
 
