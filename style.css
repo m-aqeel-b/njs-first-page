@@ -367,11 +367,11 @@
 }
 .hb_core_value-p{
     font-family: Sofia Pro;
-font-size: 17px;
-font-weight: 400;
-line-height: 22px;
-text-align: left;
-color:#2F63A6
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color:#2F63A6
 }
 .hb_doc-img{
     height: 420px;
@@ -398,20 +398,20 @@ color:#2F63A6
 .hb_new_title1 h3{
     font-family: Sofia Pro;
     color: #E94C94;
-font-size: 18px;
-font-weight: 400;
-line-height: 16px;
-letter-spacing: 2px;
-text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-align: left;
 
 }
 .hb_news_title2{
     font-family: PT Serif;
-font-size: 30px;
-font-weight: 400;
-line-height: 36px;
-text-align: left;
-color:#0E4080
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color:#0E4080
 }
 .hb_news_section2{
     display: flex;
@@ -419,22 +419,22 @@ color:#0E4080
 }
 .hb_news-img img{
     width: 370px;
-height: 274px;
-top: 3891px;
-left: 75px;
-gap: 0px;
-border-radius: 8px 0px 0px 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
+    height: 274px;
+    top: 3891px;
+    left: 75px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
 
 }
 .hb_news_title{
     font-family: Sofia Pro;
-font-size: 18px;
-font-weight: 600;
-line-height: 16px;
-text-align: left;
-color:#0E4080;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color:#0E4080;
 }
 .hb_news_list{
     display: flex;
@@ -453,11 +453,11 @@ color:#0E4080;
 }
 .hb_footer__logo{
     width: 164px;
-height: 94px;
-top: 50px;
-left: 75px;
-gap: 0px;
-opacity: 0px;
+    height: 94px;
+    top: 50px;
+    left: 75px;
+    gap: 0px;
+    opacity: 0px;
 }
 .hb_footer__col1-title{
     font-family: Sofia Pro;
@@ -469,9 +469,17 @@ opacity: 0px;
 }
 .hb_footer_col1--text{
     font-family: Sofia Pro;
-font-size: 17px;
-font-weight: 500;
-line-height: 22px;
-text-align: left;
-color:white;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color:white;
+}
+/* New style  */
+.hb_header__search-box {
+    border-radius: 4px;
+    outline: none;
+}
+.hb_header__search-box::placeholder {
+    color: #0E4080;
 }
