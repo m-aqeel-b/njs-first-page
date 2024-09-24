@@ -119,6 +119,14 @@ img {
     padding: 13px;
     width: 100%
 }
+.hb_search--input::placeholder{
+    font-family: Sofia Pro;
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+text-align: left;
+    color: #2F63A6;
+}
 
 .hb_search_section--svg {
     position: absolute;
@@ -201,47 +209,53 @@ img {
     color: white;
     padding: 19px 13px;
 }
-.hb_text_title{
+
+.hb_text_title {
     font-family: PT Serif;
-font-size: 30px;
-font-weight: 400;
-line-height: 36px;
-text-align: center;
-color:#0E4080;
-width: 58%;
-margin-top: 50px;
-}
-.hb_text_p{
-    font-family: Sofia Pro;
-font-size: 17px;
-font-weight: 400;
-line-height: 21px;
-text-align: center;
-color:#0E4080;
-width:43%;
-margin-top: 16px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #0E4080;
+    width: 58%;
+    margin-top: 50px;
 }
 
-.hb_text .hb_wrapper{
+.hb_text_p {
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #0E4080;
+    width: 43%;
+    margin-top: 16px;
+}
+
+.hb_text .hb_wrapper {
     flex-direction: column;
     align-items: center;
 }
-.hb_care_facility{
+
+.hb_care_facility {
     margin-top: 30px;
     margin-bottom: 50px;
 }
-.hb_care_facility .hb_wrapper{
+
+.hb_care_facility .hb_wrapper {
     justify-content: center;
 }
-.hb_care_facility_h2{
+
+.hb_care_facility_h2 {
     font-family: Sofia Pro;
-font-size: 18px;
-font-weight: 600;
-line-height: 16px;
-text-align: center;
-color: #0E4080;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    color: #0E4080;
 }
-.hb_care_facility_item{
+
+.hb_care_facility_item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -249,29 +263,122 @@ color: #0E4080;
     padding: 0 57px;
     justify-content: space-between;
 }
-.hb_excellence{
+
+.hb_excellence {
     padding-top: 50px;
 }
-.hb_excellence .hb_wrapper{
+
+.hb_excellence .hb_wrapper {
     flex-direction: column;
     align-items: center;
 }
-.hb_excellence--title{
+
+.hb_excellence--title {
+    font-family: Sofia Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #E94C94;
+    text-transform: uppercase;
+}
+
+.hb_excellence--p {
+    font-family: PT Serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #0E4080;
+    width: 42.7%;
+}
+
+.hb_image--style {
+    border-radius: 24px;
+    object-fit: cover;
+    height: 420px;
+}
+
+.hb_image_section {
+    position: relative;
+}
+
+.hb_image_section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 89.76%);
+    border-radius: 24px;
+}
+.hb_image{
+    margin-top: 60px;
+}
+.hb_image .hb_main_container {
+    position: relative;
+}
+
+.hb_img_overly_text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 29%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:13px;
+}
+
+.hb_img_overly--title {
+    width:43%;
+    font-family: PT Serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+}
+
+.hb_img_overly--p {
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: white
+}
+.hb_stats{
+    margin-top: 60px;
+}
+.hb_stats .hb_wrapper{
+    justify-content: center;
+    gap:80px
+}
+.hb_stats-p1{
+    font-family: Sofia Pro;
+font-size: 24px;
+font-weight: 600;
+line-height: 22px;
+text-align: center;
+color:#0E4080;
+margin-top: 20px;
+}
+.hb_stats-p2{
     font-family: Sofia Pro;
 font-size: 18px;
 font-weight: 400;
-line-height: 16px;
-letter-spacing: 2px;
-text-align: left;
-color: #E94C94;
-text-transform: uppercase;
-}
-.hb_excellence--p{
-    font-family: PT Serif;
-font-size: 30px;
-font-weight: 400;
-line-height: 36px;
+line-height: 18px;
 text-align: center;
 color:#0E4080;
-width: 42.7%;
+margin-top: 6px;
+}
+.hb_stats__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
