@@ -14,3 +14,264 @@ img {
     display: block;
     object-fit: cover;
 }
+
+.hb_main_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 75px;
+}
+
+.hb_wrapper {
+    display: flex;
+}
+
+.hb_announcement {
+    background: #2F63A6;
+    color: white
+}
+
+.hb_announcement_box {
+    display: flex;
+}
+
+.hb_announcement_text {
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+}
+
+.hb_announcement .hb_wrapper {
+    justify-content: center;
+    padding-top: 8.5px;
+    padding-bottom: 7.5px;
+}
+
+.hb_announcement_box1 {
+    display: flex;
+    padding-right: 30px;
+    border-right: 2px solid white;
+    align-items: center;
+    gap: 10px;
+}
+
+.hb_announcement_box2 {
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    gap: 10px;
+}
+
+.hb_header .hb_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.hb_btn_section {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.hb_btn_style {
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    background: linear-gradient(90deg, #3465A4 -6.7%, #1BB8B8 115.94%);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    display: flex;
+    gap: 8px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.hb_btn_section--svg {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.hb_search_section {
+    width: 28.25%;
+    position: relative;
+    margin-left: 16%;
+}
+
+.hb_search--input {
+    border-radius: 4px;
+    border: 1px solid #DDE7F3;
+    height: 40px;
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: #2F63A6;
+    padding: 13px;
+    width: 100%
+}
+
+.hb_search_section--svg {
+    position: absolute;
+    top: 3px;
+    text-align: left;
+    /* left: 0px; */
+    right: 3px;
+}
+
+.hb_menu {
+    padding: 18px 0;
+}
+
+.hb_menu_ul {
+    margin: 0 -25px;
+}
+
+.hb_menu_ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+}
+
+.hb_menu_ul li a {
+    text-decoration: none;
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+}
+
+.hb_line {
+    border: 1px solid #DDE7F3
+}
+
+.hb_hero_section {
+    position: relative;
+}
+
+.hb_hero_section_overly {
+    position: absolute;
+    top: 28.8%;
+    width: 42%;
+}
+
+.hb_hero_overly_title {
+    font-family: PT Serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    color: white;
+}
+
+.hb_hero_overly_p {
+    font-family: Sofia Pro;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    padding-top: 16px;
+    color: white;
+}
+
+.hb_hero_verticle_text {
+    position: absolute;
+    right: 0;
+    top: 33%;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    text-transform: capitalize;
+    font-family: Sofia Pro;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    background-color: #1BB8B8;
+    color: white;
+    padding: 19px 13px;
+}
+.hb_text_title{
+    font-family: PT Serif;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+text-align: center;
+color:#0E4080;
+width: 58%;
+margin-top: 50px;
+}
+.hb_text_p{
+    font-family: Sofia Pro;
+font-size: 17px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+color:#0E4080;
+width:43%;
+margin-top: 16px;
+}
+
+.hb_text .hb_wrapper{
+    flex-direction: column;
+    align-items: center;
+}
+.hb_care_facility{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.hb_care_facility .hb_wrapper{
+    justify-content: center;
+}
+.hb_care_facility_h2{
+    font-family: Sofia Pro;
+font-size: 18px;
+font-weight: 600;
+line-height: 16px;
+text-align: center;
+color: #0E4080;
+}
+.hb_care_facility_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 0 57px;
+    justify-content: space-between;
+}
+.hb_excellence{
+    padding-top: 50px;
+}
+.hb_excellence .hb_wrapper{
+    flex-direction: column;
+    align-items: center;
+}
+.hb_excellence--title{
+    font-family: Sofia Pro;
+font-size: 18px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 2px;
+text-align: left;
+color: #E94C94;
+text-transform: uppercase;
+}
+.hb_excellence--p{
+    font-family: PT Serif;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+text-align: center;
+color:#0E4080;
+width: 42.7%;
+}
