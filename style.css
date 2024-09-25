@@ -119,12 +119,13 @@ img {
     padding: 13px;
     width: 100%
 }
-.hb_search--input::placeholder{
+
+.hb_search--input::placeholder {
     font-family: Sofia Pro;
-font-size: 14px;
-font-weight: 400;
-line-height: 14px;
-text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
     color: #2F63A6;
 }
 
@@ -314,9 +315,11 @@ text-align: left;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 89.76%);
     border-radius: 24px;
 }
-.hb_image{
+
+.hb_image {
     margin-top: 60px;
 }
+
 .hb_image .hb_main_container {
     position: relative;
 }
@@ -330,11 +333,11 @@ text-align: left;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:13px;
+    gap: 13px;
 }
 
 .hb_img_overly--title {
-    width:43%;
+    width: 43%;
     font-family: PT Serif;
     font-size: 30px;
     font-weight: 400;
@@ -351,34 +354,162 @@ text-align: left;
     text-align: center;
     color: white
 }
-.hb_stats{
+
+.hb_stats {
     margin-top: 60px;
 }
-.hb_stats .hb_wrapper{
+
+.hb_stats .hb_wrapper {
     justify-content: center;
-    gap:80px
+    gap: 80px
 }
-.hb_stats-p1{
+
+.hb_stats-p1 {
     font-family: Sofia Pro;
-font-size: 24px;
-font-weight: 600;
-line-height: 22px;
-text-align: center;
-color:#0E4080;
-margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color: #0E4080;
+    margin-top: 20px;
 }
-.hb_stats-p2{
+
+.hb_stats-p2 {
     font-family: Sofia Pro;
-font-size: 18px;
-font-weight: 400;
-line-height: 18px;
-text-align: center;
-color:#0E4080;
-margin-top: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #0E4080;
+    margin-top: 6px;
 }
-.hb_stats__item{
+
+.hb_stats__item {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+
+.hb_testimonial {
+    padding: 50px 0;
+    background: #2F63A6;
+    margin-top: 60px;
+}
+
+.hb_testimonial__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hb_testimonial--title1 {
+    font-family: Sofia Pro;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF
+}
+
+.hb_testimonial--title2 {
+    font-family: PT Serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF
+}
+
+.hb_testimonial-box1 {
+    background: #1BB8B8;
+    width: 18.8%;
+    border-radius: 8px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 51px;
+    margin-right: 18px;
+}
+
+.hb_tistimonial_box1_title {
+    font-family: Sofia Pro;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+
+.hb_testim--p1 {
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.hb_testim--p2 {
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.hb_testi--item {
+    width: 33.3%;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-left: 24px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+}
+
+.hb_testim--p {
+    font-family: Sofia Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #2F63A6;
+    margin-bottom: 6px;
+}
+
+.hb_testim--name {
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 13px;
+    text-align: left;
+    color: #2F63A6;
+}
+
+.hb_google--img {
+    width: 104px;
+    height: 42px;
+
+}
+.hb_testim_item--footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hb_main_container .hb_wrapper{
+    margin-top: 40px;
+}
+.hb_testimonial--list{
+    display: flex;
+    gap: 20px;
+    width: 82.9%;
 }
