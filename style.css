@@ -505,11 +505,12 @@ img {
     justify-content: space-between;
     align-items: center;
 }
-.hb_main_container .hb_wrapper{
+.hb_testimonial .hb_wrapper{
     margin-top: 40px;
 }
 .hb_testimonial--list{
     display: flex;
     gap: 20px;
     width: 82.9%;
+    justify-content: space-between;
 }
