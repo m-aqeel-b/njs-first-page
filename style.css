@@ -600,14 +600,16 @@ img {
     right: 0;
     bottom: 0;
 }
-.hb_news_text{
+
+.hb_news_text {
     margin-top: 50px;
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
-.hb_news--title1{
+
+.hb_news--title1 {
     font-family: Sofia Pro;
     font-size: 18px;
     font-weight: 400;
@@ -616,7 +618,8 @@ img {
     color: #E94C94;
     text-transform: uppercase;
 }
-.hb_news--title2{
+
+.hb_news--title2 {
     font-family: PT Serif;
     font-size: 30px;
     font-weight: 400;
@@ -624,39 +627,44 @@ img {
     color: #0E4080;
     margin-top: 6px;
 }
-.hb_news-btn{
+
+.hb_news-btn {
     font-family: Sofia Pro;
-font-size: 17px;
-font-weight: 600;
-line-height: 16px;
-text-align: left;
-color:#FFFFFF;
-padding: 12px 30px;
-border:none;
-background: linear-gradient(90deg, #3465A4 -6.7%, #1BB8B8 115.94%);
-border-radius: 4px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 12px 30px;
+    border: none;
+    background: linear-gradient(90deg, #3465A4 -6.7%, #1BB8B8 115.94%);
+    border-radius: 4px;
 }
-.hb_news_imgs{
+
+.hb_news_imgs {
     display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
-    gap:30px
+    gap: 30px
 }
-.hb_news_img--title{
+
+.hb_news_img--title {
     font-family: Sofia Pro;
-font-size: 18px;
-font-weight: 600;
-line-height: 16px;
-text-align: left;
-color:#0E4080;
-margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #0E4080;
+    margin-top: 10px;
 }
-.hb_news_item{
+
+.hb_news_item {
     max-width: 31.8%;
-    width:100%;
+    width: 100%;
 
 }
-.hb_news--img{
+
+.hb_news--img {
     border-radius: 8px;
     object-fit: contain;
 }
