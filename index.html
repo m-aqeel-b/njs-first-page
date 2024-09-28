@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="fonts.pt-serif.css" />
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
@@ -911,7 +915,7 @@
             <p class="hb_testim--p1">50+ Reviews</p>
             <p class="hb_testim--p2">Read More Reviews</p>
           </div>
-          <div class="hb_testimonial--list">
+          <div class="hb_testimonial--list hb_display_desktop">
             <div class="hb_testi--item">
               <p class="hb_testim--p">
                 “We feel very comfortable with hospitality provided by staff.
@@ -947,6 +951,67 @@
                 <h3 class="hb_testim--name">Gaurav Chauhan</h3>
                 <img src="images/google.png" alt="" class="hb_google--img" />
               </div>
+            </div>
+          </div>
+          <div class="hb_display_mobile hb_testimonial--list">
+            <div class="swiper hb_swiper--testimonial">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="hb_testi--item">
+                    <p class="hb_testim--p">
+                      “We feel very comfortable with hospitality provided by
+                      staff. honestly speaking staff was courteous, helpful and
+                      very attentive. I would highly recommend this hospital to
+                      my relatives and friends.”
+                    </p>
+                    <div class="hb_testim_item--footer">
+                      <h3 class="hb_testim--name">Gaurav Chauhan1</h3>
+                      <img
+                        src="images/google.png"
+                        alt=""
+                        class="hb_google--img"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="hb_testi--item">
+                    <p class="hb_testim--p">
+                      “We feel very comfortable with hospitality provided by
+                      staff. honestly speaking staff was courteous, helpful and
+                      very attentive. I would highly recommend this hospital to
+                      my relatives and friends.”
+                    </p>
+                    <div class="hb_testim_item--footer">
+                      <h3 class="hb_testim--name">Gaurav Chauhan2</h3>
+                      <img
+                        src="images/google.png"
+                        alt=""
+                        class="hb_google--img"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="hb_testi--item">
+                    <p class="hb_testim--p">
+                      “We feel very comfortable with hospitality provided by
+                      staff. honestly speaking staff was courteous, helpful and
+                      very attentive. I would highly recommend this hospital to
+                      my relatives and friends.”
+                    </p>
+                    <div class="hb_testim_item--footer">
+                      <h3 class="hb_testim--name">Gaurav Chauhan3</h3>
+                      <img
+                        src="images/google.png"
+                        alt=""
+                        class="hb_google--img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
             </div>
           </div>
         </div>
@@ -987,7 +1052,7 @@
           </div>
           <button class="hb_news-btn">Read More Articles</button>
         </div>
-        <div class="hb_news_imgs">
+        <div class="hb_news_imgs hb_display_desktop">
           <div class="hb_news_item">
             <img src="images/Rectangle 4431.png" alt="" class="hb_news--img" />
             <h3 class="hb_news_img--title">Article tagline - 18.07.24</h3>
@@ -1001,7 +1066,62 @@
             <h3 class="hb_news_img--title">Article tagline - 18.07.24</h3>
           </div>
         </div>
+        <div class="hb_news_imgs hb_display_mobile">
+          <div class="swiper mySwiper hb_swiper--news">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="hb_news_item">
+                  <img
+                    src="images/Rectangle 4431.png"
+                    alt=""
+                    class="hb_news--img"
+                  />
+                  <h3 class="hb_news_img--title">Article tagline - 18.07.24</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="hb_news_item">
+                  <img
+                    src="images/Rectangle 4430.png"
+                    alt=""
+                    class="hb_news--img"
+                  />
+                  <h3 class="hb_news_img--title">Article tagline - 18.07.24</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="hb_news_item">
+                  <img
+                    src="images/Rectangle 4432.png"
+                    alt=""
+                    class="hb_news--img"
+                  />
+                  <h3 class="hb_news_img--title">Article tagline - 18.07.24</h3>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".hb_swiper--testimonial", {
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+
+      var swiper2 = new Swiper(".hb_swiper--news", {
+        spaceBetween: 30,
+        pagination: {
+          el: ".hb_news_imgs .swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>
