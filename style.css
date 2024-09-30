@@ -307,6 +307,52 @@ img {
     width: 42.7%;
 }
 
+/* .hb_specialities--item {
+    max-width: 22.5%;
+    width: 100%;
+}
+.hb_specialities .swiper-slide{
+    max-width: 22.5%;
+    width: 100%;
+} */
+
+.hb_specialities .hb_wrapper {
+    gap: 30px
+}
+
+.hb_specialities {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.hb_specialities--title {
+    font-family: Sofia Pro;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color: #0E4080;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.hb_specialities--item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hb_specialities--p {
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #0E4080;
+    text-align: center;
+    margin-top: 10px;
+}
+
 .hb_image--style {
     border-radius: 24px;
     object-fit: cover;
@@ -681,6 +727,152 @@ img {
     object-fit: contain;
 }
 
+.hb_footer {
+    background: linear-gradient(90deg, #3465A4 -6.7%, #1BB8B8 115.94%);
+    padding-bottom: 30px;
+}
+.hb_footer .hb_wrapper{
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.hb_footer_logo_section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    flex:0.5
+}
+
+.hb_footer--logo {
+    width: 164px;
+    height: 94px;
+}
+
+.hb_footer_desc {
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+
+.hb_footer_contacts--item {
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.hb_footer_contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.hb_footer_contacts--item {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.hb_footer_section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.hb_footer_section2--part1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.hb_footer_section2--part2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.hb_footer_section2 a {
+    text-decoration: none;
+    font-family: Sofia Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF
+}
+
+.hb_footer_section2 {
+    margin-top: 70px;
+}
+.hb_footer_section2--title{
+    font-family: Sofia Pro;
+font-size: 18px;
+font-weight: 600;
+line-height: 13px;
+color:#FFFFFF;
+margin-bottom: 13px;
+}
+
+.hb_footer_sub_sec1--title{
+    font-family: Sofia Pro;
+font-size: 18px;
+font-weight: 600;
+line-height: 13px;
+color:#FFFFFF;
+margin-bottom: 13px;
+}
+.hb_footer_section3 a {
+    text-decoration: none;
+    font-family: Sofia Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF
+}
+.hb_footer_sub_sec1{
+    display: flex;
+    flex-direction: column;
+}
+
+.hb_footer_sub_sec1--item{
+    display: flex;
+    flex-direction: column;
+}
+.hb_footer_section3{
+    display: flex;
+    margin-top: 70px;
+    flex-grow: 0.2;
+    justify-content: space-between;
+}
+.hb_footer_contacts--address_svg{
+    width: 50px;
+}
+.hb_footer_copyright{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.hb_footer_copyright--text{
+    font-family: Sofia Pro;
+font-size: 15px;
+font-weight: 300;
+line-height: 15px;
+text-align: left;
+color:#FFFFFF
+}
+.hb_footer_copyright--social{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
 @media screen and (max-width: 1330px) {
     .hb_menu {
         padding: 10px 0;
@@ -692,6 +884,18 @@ img {
 
     .hb_menu_ul li {
         margin: 0 15px;
+    }
+
+    .hb_specialities--title {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+    .hb_specialities--p {
+        font-size: 15px;
+        line-height: 17px;
+        margin-top: 8px;
     }
 }
 
@@ -761,6 +965,7 @@ img {
         line-height: 35px;
         width: 52%;
     }
+
 
     .hb_image {
         margin-top: 50px;
@@ -895,6 +1100,17 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .hb_specialities--title {
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 16px;
+    }
+
+    .hb_specialities--item {
+        max-width: 30.5%;
+        width: 100%;
     }
 
 }
@@ -1057,10 +1273,10 @@ img {
     }
 
     .hb_display_desktop {
-        display: none ;
+        display: none;
     }
-    
-    
+
+
     .hb_main_container {
         padding: 0 24px;
     }
@@ -1270,6 +1486,15 @@ img {
 
     .hb_news_img--title {
         text-align: center;
+    }
+
+    .hb_news_imgs {
+        width: 100%;
+    }
+
+    .hb_specialities--item {
+        max-width: 100%;
+        width: 100%;
     }
 
     /* .hb_news_item {
