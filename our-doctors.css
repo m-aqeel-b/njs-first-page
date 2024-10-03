@@ -81,7 +81,7 @@
   margin: 0 auto;
 }
 .hb_doctors--img {
-  width: 300px;
+  width: 100%;
   height: 370px;
   gap: 0px;
   border-radius: 13px;
@@ -107,7 +107,7 @@
   color: #0e4080;
 }
 .hb_doctors--item {
-  width: 23.3%;
+  width: 22.3%;
 }
 .hb_doctors {
   margin-bottom: 50px;
@@ -116,6 +116,7 @@
   flex-wrap: wrap;
   gap: 29px;
   margin-top: 40px;
+  justify-content: space-between;
 }
 .hb_doctors_appointment {
   margin-top: 50px;
@@ -170,4 +171,25 @@
 }
 .hb_doctors_appointment--number {
   padding-right: 13px;
+}
+.hb_hero_verticle_text {
+  top: 0px;
+  bottom: -28px;
+}
+
+@media screen and (max-width: 1400px) {
+  .hb_doctors--tel {
+    display: none;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .hb_doctors--item {
+    width: 30.3%;
+  }
+}
+@media screen and (max-width: 991px) {
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 381px) {
 }
