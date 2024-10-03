@@ -1,0 +1,173 @@
+.hb_doctors_hero .hb_wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+
+.hb_doctors_hero {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.hb_doctors--h1 {
+  font-family: Sofia Pro;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e94c94;
+}
+
+.hb_doctors--h2 {
+  font-family: PT Serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: center;
+  color: #0e4080;
+  margin-bottom: 30px;
+}
+
+.hb_doctors--p {
+  width: 60%;
+  font-family: Sofia Pro;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  color: #0e4080;
+}
+
+.hb_doctors_intro {
+  margin-bottom: 59px;
+}
+
+.hb_doctors_intro .hb_wrapper {
+  background-color: #2f63a6;
+}
+
+.hb_doc_intro_text {
+  width: 44.49%;
+}
+
+.hb_doc_intro_text {
+  padding: 60px 50px;
+}
+
+.hb_doc_intro_text--p {
+  font-family: Sofia Pro;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.hb_doc_intro_img {
+  width: 55.51%;
+}
+
+.hb_doctors_heading {
+  font-family: PT Serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #0e4080;
+
+  width: 53.8%;
+  margin: 0 auto;
+}
+.hb_doctors--img {
+  width: 300px;
+  height: 370px;
+  gap: 0px;
+  border-radius: 13px;
+  opacity: 0px;
+  background: #dde7f3;
+}
+.hb_doctor--name {
+  font-family: Sofia Pro;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  color: #0e4080;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+.hb_doctor--spcialization {
+  font-family: Sofia Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #0e4080;
+}
+.hb_doctors--item {
+  width: 23.3%;
+}
+.hb_doctors {
+  margin-bottom: 50px;
+}
+.hb_doctors .hb_wrapper {
+  flex-wrap: wrap;
+  gap: 29px;
+  margin-top: 40px;
+}
+.hb_doctors_appointment {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.hb_doctors_appointment .hb_wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+.hb_doctors_appointment--p {
+  font-family: Sofia Pro;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: center;
+  color: #2f63a6;
+  margin-bottom: 40px;
+  width: 64.3%;
+}
+.hb_doctors_appointment--btn {
+  width: 42.55%;
+  font-family: Sofia Pro;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #ffffff;
+  background: #0e4080;
+  border-radius: 4px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 12px 0px;
+}
+.hb_doctors_appt_btn_call {
+  background: #1bb8b8;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  /* padding: 8px 0px;
+  padding-right: 13px; */
+  border: 1px solid #ffffff;
+  border-radius: 22px 5px 5px 22px;
+}
+.hb_doctors_appt_call--svg {
+  background: white;
+  border-radius: 20px;
+  width: 49px;
+  height: 45px;
+  padding: 3px;
+}
+.hb_doctors_appointment--number {
+  padding-right: 13px;
+}
