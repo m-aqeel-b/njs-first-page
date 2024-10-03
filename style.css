@@ -1664,6 +1664,15 @@ img {
         justify-content: center;
         margin-top: 15px;
     }
+    .hb_footer_contacts--address_svg {
+        width: 50px;
+    }
+    /* .hb_footer_section2--part2{
+        flex-grow: 0.5;
+    }
+    .hb_footer_sub_sec1 {
+        flex-grow: 0.2;
+    } */
 }
 
 @media screen and (max-width: 381px) {
@@ -1695,5 +1704,16 @@ img {
     .hb_hero_overly_p {
         font-size: 12px;
         line-height: 12px;
+    }
+    .hb_footer_contacts--address_svg {
+        width: 100px;
+    }
+    .hb_care_facility_item {
+        gap: 10px;
+        padding: 0 16px;
+    }
+    .hb_care_facility_item {
+        gap: 10px;
+        padding: 0 16px;
     }
 }
