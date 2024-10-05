@@ -1,0 +1,147 @@
+.hb_story_hero {
+  background-color: #2f63a6;
+}
+.hb_story_hero .hb_wrapper {
+  align-items: center;
+}
+.hb_story_hero_text {
+  width: 43%;
+}
+.hb_story_img {
+  width: 57%;
+  position: relative;
+  right: -75px;
+}
+.hb_story_hero--titile1 {
+  font-family: Sofia Pro;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.hb_story_hero--title2 {
+  font-family: PT Serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  color: #ffffff;
+  width: 83.4%;
+}
+.hb_story_hero--p {
+  font-family: Sofia Pro;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 19px;
+  width: 85.5%;
+}
+.hb_vision_mission {
+  margin: 50px 0;
+}
+.hb_vision_mission .hb_wrapper {
+  width: 87.8%;
+  margin: 0 auto;
+}
+.hb_vision {
+  display: flex;
+  gap: 24px;
+}
+.hb_mission {
+  display: flex;
+  gap: 24px;
+}
+.hb_vision__text--title {
+  font-family: PT Serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #0e4080;
+}
+.hb_vision__text--p {
+  font-family: Sofia Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #2f63a6;
+}
+.hb_vision__text {
+  width: 64.7%;
+}
+.hb_row1 {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 73px;
+  margin-right: 73px;
+  margin-bottom: 50px;
+  gap: 60px;
+  align-items: center;
+}
+.hb_row2 {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 73px;
+  margin-right: 73px;
+  margin-bottom: 50px;
+  gap: 60px;
+  align-items: center;
+}
+.hb_row1__img {
+  width: 49%;
+}
+.hb_row1__text {
+  width: 51%;
+}
+.hb_row1__text--title {
+  font-family: PT Serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #0e4080;
+  margin-bottom: 20px;
+  width: 75%;
+}
+.hb_row1__text--p {
+  font-family: Sofia Pro;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #2f63a6;
+}
+.hb_row2__text--title {
+  font-family: PT Serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #0e4080;
+  margin-bottom: 20px;
+  width: 82%;
+}
+.hb_stats {
+  margin-bottom: 70px;
+}
+
+@media screen and (max-width: 1330px) {
+  .hb_story_hero--title2 {
+    font-size: 40px;
+    line-height: 40px;
+    width: 83.4%;
+  }
+  .hb_story_hero--p {
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 10px;
+    width: 85.5%;
+  }
+}
