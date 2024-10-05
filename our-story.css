@@ -5,10 +5,12 @@
   align-items: center;
 }
 .hb_story_hero_text {
-  width: 43%;
+  max-width: 43%;
+  width: 100%;
 }
 .hb_story_img {
-  width: 57%;
+  max-width: 57%;
+  width: 100%;
   position: relative;
   right: -75px;
 }
@@ -30,7 +32,8 @@
   line-height: 60px;
   text-align: left;
   color: #ffffff;
-  width: 83.4%;
+  max-width: 83.4%;
+  width: 100%;
 }
 .hb_story_hero--p {
   font-family: Sofia Pro;
@@ -40,13 +43,15 @@
   text-align: left;
   color: #ffffff;
   margin-top: 19px;
-  width: 85.5%;
+  max-width: 85.5%;
+  width: 100%;
 }
 .hb_vision_mission {
   margin: 50px 0;
 }
 .hb_vision_mission .hb_wrapper {
-  width: 87.8%;
+  max-width: 87.8%;
+  width: 100%;
   margin: 0 auto;
   gap: 80px;
 }
@@ -99,10 +104,12 @@
   align-items: center;
 }
 .hb_row1__img {
-  width: 49%;
+  max-width: 49%;
+  width: 100%;
 }
 .hb_row1__text {
-  width: 51%;
+  max-width: 51%;
+  width: 100%;
 }
 .hb_row1__text--title {
   font-family: PT Serif;
@@ -112,7 +119,8 @@
   text-align: left;
   color: #0e4080;
   margin-bottom: 20px;
-  width: 75%;
+  max-width: 75%;
+  width: 100%;
 }
 .hb_row1__text--p {
   font-family: Sofia Pro;
@@ -130,7 +138,8 @@
   text-align: left;
   color: #0e4080;
   margin-bottom: 20px;
-  width: 82%;
+  max-width: 82%;
+  width: 100%;
 }
 .hb_stats {
   margin-bottom: 70px;
@@ -140,7 +149,8 @@
   .hb_story_hero--title2 {
     font-size: 40px;
     line-height: 40px;
-    width: 83.4%;
+    width: 100%;
+    max-width: 83.4%;
   }
   .hb_story_hero--p {
     font-size: 16px;
@@ -154,7 +164,8 @@
     font-weight: 400;
     line-height: 28px;
     margin-bottom: 10px;
-    width: 85%;
+    width: 100%;
+    max-width: 85%;
   }
   .hb_row1__text--p {
     font-size: 16px;
@@ -165,5 +176,144 @@
     font-size: 22px;
     line-height: 30px;
     margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .hb_vision_mission .hb_wrapper {
+    max-width: 90%;
+    width: 100%;
+    gap: 40px;
+  }
+  .hb_vision {
+    gap: 20px;
+    max-width: 50%;
+    width: 100%;
+  }
+  .hb_mission {
+    gap: 20px;
+    max-width: 50%;
+    width: 100%;
+  }
+  .hb_vision__text {
+    max-width: 100%;
+    width: 100%;
+  }
+  .hb_vision__text--title {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .hb_vision__text--p {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .hb_vision_mission {
+    margin: 40px 0;
+  }
+  .hb_row1__text--p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+  .hb_row1__text--title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 5px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .hb_row1 {
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 40px;
+  }
+  .hb_row2 {
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 40px;
+  }
+  .hb_row2__text--title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 5px;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .hb_story_hero--titile1 {
+    font-size: 18px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  .hb_story_hero--title2 {
+    font-size: 28px;
+    line-height: 26px;
+    width: 100%;
+    max-width: 96.4%;
+  }
+  .hb_story_hero--p {
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 10px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .hb_vision_mission .hb_wrapper {
+    max-width: 95%;
+    width: 100%;
+    gap: 20px;
+  }
+  .hb_vision {
+    gap: 8px;
+    max-width: 50%;
+    width: 100%;
+  }
+  .hb_mission {
+    gap: 8px;
+    max-width: 50%;
+    width: 100%;
+  }
+  .hb_vision__svg--style {
+    width: 44px;
+    height: 47px;
+  }
+  .hb_mission__svg--style {
+    width: 56px;
+    height: 44px;
+  }
+  .hb_row1 {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .hb_row1__img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .hb_row1__text {
+    max-width: 100%;
+    width: 100%;
+  }
+  .hb_row1__text--title {
+    text-align: center;
+  }
+  .hb_row1__text--p {
+    text-align: center;
+  }
+  .hb_row2__text--title {
+    text-align: center;
+  }
+  .hb_line_show_max_991 {
+    position: relative;
+    margin: 0 -75px;
+  }
+  .hb_row2 {
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
