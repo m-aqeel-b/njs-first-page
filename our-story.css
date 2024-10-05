@@ -48,10 +48,13 @@
 .hb_vision_mission .hb_wrapper {
   width: 87.8%;
   margin: 0 auto;
+  gap: 80px;
 }
 .hb_vision {
   display: flex;
   gap: 24px;
+  max-width: 50%;
+  width: 100%;
 }
 .hb_mission {
   display: flex;
@@ -74,7 +77,8 @@
   color: #2f63a6;
 }
 .hb_vision__text {
-  width: 64.7%;
+  max-width: 72.7%;
+  width: 100%;
 }
 .hb_row1 {
   display: flex;
@@ -139,9 +143,27 @@
     width: 83.4%;
   }
   .hb_story_hero--p {
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 16px;
     margin-top: 10px;
-    width: 85.5%;
+    max-width: 100%;
+    width: 100%;
+  }
+  .hb_row1__text--title {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 10px;
+    width: 85%;
+  }
+  .hb_row1__text--p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .hb_row2__text--title {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 10px;
   }
 }
