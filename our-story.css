@@ -144,6 +144,9 @@
 .hb_stats {
   margin-bottom: 70px;
 }
+.hb_line_show_max_991 {
+  display: none;
+}
 
 @media screen and (max-width: 1330px) {
   .hb_story_hero--title2 {
@@ -308,6 +311,7 @@
     text-align: center;
   }
   .hb_line_show_max_991 {
+    display: block;
     position: relative;
     margin: 0 -75px;
   }

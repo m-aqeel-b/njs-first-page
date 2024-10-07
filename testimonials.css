@@ -1,0 +1,79 @@
+.hb_testim_hero {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.hb_testim_hero .hb_wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+.hb_testim_hero--title1 {
+  font-family: Sofia Pro;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #e94c94;
+  text-transform: uppercase;
+}
+.hb_testim_hero--title2 {
+  font-family: PT Serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #0e4080;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  font-family: Sofia Pro;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #0e4080;
+  opacity: 40%;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  border-bottom: 3px solid #e94c94;
+  font-family: Sofia Pro;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #0e4080;
+  opacity: 100%;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+.hb_testim--p {
+  color: white;
+}
+.hb_testi--item {
+  background-color: #2f63a6;
+}
