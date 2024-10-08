@@ -114,7 +114,8 @@
 }
 .hb_doctors .hb_wrapper {
   flex-wrap: wrap;
-  gap: 29px;
+  column-gap: 43px;
+  row-gap: 10px;
   margin-top: 40px;
   justify-content: space-between;
 }
@@ -184,6 +185,12 @@
 @media screen and (max-width: 1400px) {
   .hb_doctors--tel {
     display: none;
+  }
+}
+@media screen and (max-width: 1343px) {
+  .hb_doctors .hb_wrapper {
+    flex-wrap: wrap;
+    column-gap: 37px;
   }
 }
 @media screen and (max-width: 1199px) {

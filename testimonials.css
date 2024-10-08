@@ -28,6 +28,9 @@
   display: flex;
   justify-content: center;
 }
+.hb_tabs {
+  padding-bottom: 80px;
+}
 
 /* Style the buttons inside the tab */
 .tab button {
@@ -65,7 +68,6 @@
   opacity: 100%;
 }
 
-/* Style the tab content */
 .tabcontent {
   display: none;
   padding: 6px 12px;
@@ -76,4 +78,22 @@
 }
 .hb_testi--item {
   background-color: #2f63a6;
+  width: 100%;
+  max-width: 26.1%;
 }
+.hb_testim--name {
+  color: white;
+}
+.hb_testimonial--list {
+  width: 100%;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hb_line__testimonials {
+  margin-bottom: 50px;
+}
+/* .hb_testimonial--list:after {
+  content: "";
+  flex: auto;
+} */
