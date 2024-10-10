@@ -104,6 +104,83 @@
   justify-content: center;
   margin-top: 30px;
 }
-.hb_btn_style {
+.hb_btn_style__contact_page {
   padding: 15px 68px;
+}
+
+@media screen and (max-width: 1336px) {
+  .hb_contact_hero_title2 {
+    margin-bottom: 22px;
+  }
+  .hb_contact_section {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .hb_contac_us_hero .hb_wrapper {
+    flex-wrap: wrap;
+  }
+  .hb_contact_hero--text {
+    max-width: 100%;
+  }
+  .hb_contact_hero--map {
+    max-width: 100%;
+  }
+  .hb_contact_hero--text {
+    padding: 24px 0;
+  }
+  .hb_contact_hero_title1 {
+    margin-top: 0;
+  }
+  .hb_form_line {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hb_contact_hero_title1 {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+  }
+  .hb_contact_hero_title2 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 24px;
+  }
+  .hb_contact_section {
+    width: 82.2%;
+  }
+  .hb_contact_section--item {
+    gap: 15px;
+  }
+  .hb_contact_text {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+  .hb_contact_text {
+    width: 100%;
+  }
+  .hb_contac_us_hero {
+    margin-top: 0;
+  }
+  .hb_form_mobile {
+    flex-wrap: wrap;
+    gap: 13px;
+  }
+  .hb_form_input_mobile {
+    max-width: 100%;
+  }
+  .hb_contact_form_section .hb_wrapper {
+    gap: 13px;
+  }
+  .hb_form--message {
+    height: 124px;
+  }
+  .hb_contact_form_section {
+    margin-bottom: 60px;
+  }
 }
