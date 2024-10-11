@@ -46,3 +46,14 @@
 .hb_fertility_bg {
   display: flex;
 }
+.hb_fertility__para {
+  margin-bottom: 63px;
+}
+.hb_fertility__para--style {
+  font-family: Sofia Pro;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #2f63a6;
+}
