@@ -307,3 +307,115 @@
     margin-bottom: 30px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .hb_fertility_hero--title1 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .hb_fertility_bg {
+    display: none;
+  }
+  .hb_fertility_hero {
+    margin-bottom: 24px;
+  }
+  .hb_fertility_hero .hb_main_container .hb_wrapper {
+    flex-direction: column;
+  }
+  .hb_fertility_hero--text {
+    width: 100%;
+  }
+  .hb_fertility_hero--img {
+    width: 100%;
+  }
+  .hb_fertility_hero .hb_main_container {
+    position: relative;
+  }
+  .hb_fertility_hero .hb_wrapper {
+    gap: 24px;
+  }
+  .hb_fertility_hero--text {
+    padding-top: 40px;
+    text-align: center;
+  }
+  .hb_fertility--img {
+    margin-left: -24px;
+    position: relative;
+    width: 100vw;
+  }
+  .hb_fertility__para--style {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .hb_fertility__para {
+    margin-bottom: 40px;
+  }
+  .hb_treatment {
+    margin-bottom: 60px;
+  }
+  .hb_treatment__head--title {
+    font-size: 18px;
+    line-height: 16px;
+  }
+  .hb_treatment__head {
+    margin-top: 10px;
+    padding: 13px 0;
+    width: 96%;
+  }
+  .hb_treatment__head--para {
+    max-width: 86.55%;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .hb_display_desktop {
+    display: none;
+  }
+  .hb_treatment__ul li {
+    font-size: 13px;
+    line-height: 15px;
+    gap: 8px;
+  }
+  .hb_doctors__img {
+    width: 130px;
+    height: 130px;
+    top: 2290px;
+    left: 40px;
+    gap: 0px;
+    border-radius: 200px;
+  }
+  .hb_doctor__name {
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+  }
+  .hb_doctor_deisgnation {
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+  }
+  .hb_doctors--item {
+    max-width: 44%;
+    width: 100%;
+  }
+  .hb_benifits__text--title {
+    text-align: center;
+  }
+  .hb_benifits__text--para {
+    max-width: 95.33%;
+    font-family: Sofia Pro;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+  }
+  .hb_benifits__text--ul {
+    max-width: 91.89%;
+    width: 100%;
+  }
+  .hb_fertility_appoinment .hb_main_container {
+    margin-bottom: 60px;
+  }
+  .hb_benifits__text--ul li {
+    padding-left: 20px;
+    text-indent: -20px;
+  }
+}
